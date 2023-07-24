@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+        background-color: black;
+height: auto;
+}
+
+.nav-div{
+    height: 97px;
+    width: 1110px;
+    color: white;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+border-bottom: 1px solid white;
+}
+
+.nav-section ul{
+    display: flex;
+    flex-basis: 1;
+    list-style-type: none;
+    justify-content: space-between;
+    width: auto;
+}
+
+.logo-div{
+    flex-basis: 2;
+    color: white;
+    font-weight: bolder;
+    width: 143px;
+    height: 25px;
+    grid-template-areas: 1fr;
+}
+
+.check-out_div{
+    flex-basis: 3;
+
+    width: 23px;
+    height: 20px;
+    background-color: white;
+}
+
